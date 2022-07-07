@@ -1,0 +1,56 @@
+{
+  "name": "icomoon-converter",
+  "version": "1.0.0",
+  "description": "Icomoon project to SASS / SVG converter",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "icomoon-converter": "dist/index.js"
+  },
+  "homepage": "https://github.com/digikid/icomoon-converter#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digikid/icomoon-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digikid/icomoon-converter/issues"
+  },
+  "keywords": [
+    "icomoon",
+    "sass",
+    "svg",
+    "converter"
+  ],
+  "prepublish": "tsc",
+  "scripts": {
+    "prepare": "tsc",
+    "local-install": "npm i -g ./",
+    "local-update": "tsc"
+  },
+  "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.ru/)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/command-line-usage": "^5.0.2",
+    "@types/configstore": "^5.0.1",
+    "@types/inquirer": "^8.2.1",
+    "@types/node": "^18.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "chalk": "^5.0.1",
+    "command-line-usage": "^6.1.3",
+    "configstore": "^6.0.0",
+    "dree": "^3.3.7",
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "inquirer": "^9.0.0",
+    "log-symbols": "^5.1.0",
+    "node-fetch": "^3.2.6",
+    "os-locale": "^6.0.2",
+    "valid-filename": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
