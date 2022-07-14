@@ -157,7 +157,7 @@ icomoon-converter -t svg
 icomoon-converter config
 ```
 
-Для того, чтобы сбросить настройки до значений по умолчанию, воспользуйтесь командой `restore`:
+Для того чтобы сбросить настройки до значений по умолчанию, воспользуйтесь командой `restore`:
 
 ```shell
 icomoon-converter restore

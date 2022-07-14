@@ -15,8 +15,8 @@ export default (async function (this: IApp) {
 
     if (latest) {
       if (isVersionOutdated(current, latest)) {
-        this.log.success('VERSION_LATEST_TITLE');
-        this.log.success(latest);
+        this.log.print('VERSION_LATEST_TITLE', 'bold', 'green');
+        this.log.print(latest, 'bold', 'green');
         this.log.print('VERSION_TEXT', 'bold');
         this.log.print(`npm i -g ${owner}/${name}`, 'italic', 'gray');
       }
