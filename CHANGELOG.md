@@ -1,5 +1,15 @@
 # Release Notes
 
+[1.0.2]: https://github.com/digikid/icomoon-converter/releases/tag/1.0.2
+
+## [1.0.2] - 2022-07-17
+
+- Show success messages when config store is updated
+
+### Bug Fixes
+
+- Removing extra characters from log messages
+
 [1.0.1]: https://github.com/digikid/icomoon-converter/releases/tag/1.0.1
 
 ## [1.0.1] - 2022-07-14

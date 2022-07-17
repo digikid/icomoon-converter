@@ -91,4 +91,6 @@ export default (async function (this: IApp) {
   ]);
 
   Object.entries(answers).forEach(([key, value]) => this.store.set(key, value));
+
+  this.log.success('CONFIG_SUCCESS');
 }) as ConfigMethod;

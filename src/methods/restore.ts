@@ -24,5 +24,7 @@ export default (async function (this: IApp) {
     this.store.clear();
 
     (Object.entries(defaults) as Entries<IStoreParams>).forEach(([key, value]) => this.store.set(key, value));
+
+    this.log.success('RESTORE_SUCCESS');
   }
 }) as RestoreMethod;

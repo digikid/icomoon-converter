@@ -1,6 +1,6 @@
 {
   "name": "icomoon-converter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Icomoon project to SASS / SVG converter",
   "type": "module",
   "main": "dist/index.js",
