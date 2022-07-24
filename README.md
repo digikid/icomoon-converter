@@ -2,14 +2,14 @@
   <img alt="Icomoon Converter" src="https://github.com/digikid/icomoon-converter/raw/main/logo.png" height="117" />
   <h1>Icomoon Converter</h1>
   <p>Icomoon project to SASS / SVG converter.<br>Instant import icons into your project.</p>
+  <p>
+    <b>English</b> | <a href="https://github.com/digikid/icomoon-converter/blob/main/README.ru-RU.md">Русский</a></p>
   <img src="https://img.shields.io/github/release/digikid/icomoon-converter.svg?style=flat-square&logo=appveyor" alt="Release version">
   <img src="https://img.shields.io/github/languages/top/digikid/icomoon-converter.svg?style=flat-square&logo=appveyor" alt="TypeScript">
   <img src="https://img.shields.io/github/license/digikid/icomoon-converter.svg?style=flat-square&logo=appveyor" alt="MIT License">
-  <p>
-    <a href="https://github.com/digikid/icomoon-converter/blob/main/README.md">en</a> | <a href="https://github.com/digikid/icomoon-converter/blob/main/README-ru.md">ru</a></p>
 </div>
 
-## Why
+## Features
 
 - Export icons to SASS/SCSS file or SVG sprite
 - Change the name, type and formatting of output file on the fly
