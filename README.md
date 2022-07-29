@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Icomoon Converter" src="https://github.com/digikid/icomoon-converter/raw/main/logo.png" height="117" />
+  <img alt="Icomoon Converter" src="https://github.com/digikid/icomoon-converter/raw/main/logo.svg" height="117" />
   <h1>Icomoon Converter</h1>
   <p>Icomoon project to SASS / SVG converter.<br>Instant import icons into your project.</p>
   <p>
