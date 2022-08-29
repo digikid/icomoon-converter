@@ -1,4 +1,4 @@
-export const findDeep = <T>(obj: T, cb: (obj: T) => boolean): T[] => {
+export const findDeep = <T extends Record<string, any>>(obj: T, cb: (obj: T) => boolean): T[] => {
   const keys = (Object.keys(obj) as (keyof typeof obj)[]) || [];
 
   let result: T[] = [];

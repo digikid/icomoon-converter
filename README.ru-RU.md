@@ -18,7 +18,7 @@
 ## Установка
 
 ```shell
-npm i -g digikid/icomoon-converter
+npm i digikid/icomoon-converter --global --install-links
 ```
 
 ## Запуск

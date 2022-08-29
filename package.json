@@ -1,6 +1,6 @@
 {
   "name": "icomoon-converter",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Icomoon project to SASS / SVG converter",
   "type": "module",
   "main": "dist/index.js",
@@ -22,11 +22,12 @@
     "svg",
     "converter"
   ],
-  "prepublish": "tsc",
   "scripts": {
-    "prepare": "tsc",
+    "tsc": "node_modules/typescript/bin/tsc",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "local-install": "npm i -g ./",
-    "local-update": "tsc"
+    "postinstall": "npm run build"
   },
   "author": "Alexander Dovlatov <dev@digkid.ru> (https://dev.digikid.ru/)",
   "license": "MIT",
